@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<recovery>
+	<details>
+		<resolution width="1080" height="1920"/>
+		<author>ATG Droid</author>
+		<title>Red Wolf</title>
+		<description>splash screen</description>
+		<themeversion>3</themeversion>
+	</details>
+
+	<resources>
+		<image name="splash" filename="splash"/>
+	</resources>
+
+	<pages>
+		<page name="splash">
+			<object type="image">
+				<image resource="splash"/>
+				<placement x="0" y="0"/>
+			</object>
+</page>
+</pages>
+</recovery>
