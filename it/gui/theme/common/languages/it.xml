@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<display>English</display>
+	<display>Inglese</display>
 	
 	<resources>
 		<!-- Font overrides - only change these if your language requires special characters -->
@@ -10,94 +10,94 @@
 		<resource name="fixed" type="fontoverride" filename="DroidSansMono.ttf" scale="100"/>
 
 		<!-- Partition display names -->
-		<string name="system">System</string>
-		<string name="system_image">System Image</string>
-		<string name="vendor">Vendor</string>
-		<string name="vendor_image">Vendor Image</string>
-		<string name="boot">Boot</string>
-		<string name="recovery">Recovery</string>
-		<string name="cache">Cache</string>
-		<string name="data">Data</string>
-		<string name="data_backup">Data (excl. storage)</string>
-		<string name="sdcard">SD card</string>
-		<string name="internal">Internal Storage</string>
+		<string name="sistema">Sistema</string>
+		<string name="system_image">Immagine del sistema</string>
+		<string name="venditore">venditore</string>
+		<string name="VENDOR_ABBILD">Immagine del venditore</string>
+		<string name="avvio">Avvio</string>
+		<string name="recupero">Recupero</string>
+		<string name="nascondiglio">nascondiglio</string>
+		<string name="dati">Dati</string>
+		<string name="DATA_BACKUP">Dati (escl. Conservazione)</string>
+		<string name="scheda SD">scheda SD</string>
+		<string name="interno">Archiviazione interna</string>
 		<string name="microsd">Micro SD card</string>
 		<string name="usbotg">USB OTG</string>
-		<string name="android_secure">Android Secure</string>
-		<string name="dalvik">Dalvik / ART Cache</string>
+		<string name="android_secure">Android sicuro</string>
+		<string name="Dalvik">Dalvik / ART Cache</string>
 		<!-- This is a rarely used partition on a Micro SD card for a very old app2sd system -->
 		<string name="sdext">SD-EXT</string>
-		<string name="adopted_data">Adopted Data</string>
-		<string name="adopted_storage">Adopted Storage</string>
-		<string name="autostorage">Storage</string>
+		<string name="adopted_data">Dati adottati</string>
+		<string name="adopted_storage">Archiviazione adottata</string>
+		<string name="autostorage">Conservazione</string>
 
 		<!-- GUI XML strings -->
 		<string name="twrp_header">Team Win Recovery Project</string>
 		<string name="twrp_watch_header">%fox_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% &#xB0;C</string>
 		<string name="battery_pct">%tw_battery%</string>
-		<string name="sort_by_name_asc">Name asc</string>
-		<string name="sort_by_date_asc">Date asc</string>
-		<string name="sort_by_size_asc">Size asc</string>
-		<string name="sort_by_name_desc">Name desc</string>
-		<string name="sort_by_date_desc">Date desc</string>
-		<string name="sort_by_size_desc">Size desc</string>
-		<string name="install_btn">Install</string>
-		<string name="wipe_btn">Wipe</string>
-		<string name="backup_btn">Backup</string>
-		<string name="restore_btn">Restore</string>
-		<string name="mount_btn">Mount</string>
+		<string name="sort_by_name_asc">Nome asc</string>
+		<string name="sort_by_date_asc">Data asc</string>
+		<string name="sort_by_size_asc">Dimensione asc</string>
+		<string name="sort_by_name_desc">Nome disc</string>
+		<string name="sort_by_date_desc">Data di discesa</string>
+		<string name="sort_by_size_desc">Dimensione</string>
+		<string name="install_btn">Installare</string>
+		<string name="wipe_btn">pulire</string>
+		<string name="backup_btn">di riserva</string>
+		<string name="restore_btn">Ristabilire</string>
+		<string name="mount_btn">Montare</string>
 		<string name="file_manager_btn">File Manager</string>
-		<string name="advanced_btn">Advanced</string>
+		<string name="advanced_btn">Avanzate</string>
 		<string name="reboot_btn">Reboot</string>
-		<string name="copy_log_btn">Copy Logs</string>
-		<string name="install_zip_hdr">Install Zip</string>
-		<string name="install_zip_btn">INSTALL ZIP</string>
-		<string name="install_image_hdr">Install Image</string>
-		<string name="install_image_btn">INSTALL IMAGE</string>
-		<string name="install_select_file_hdr">Select File</string>
-		<string name="install_select_file_btn">SELECT FILE</string>
+		<string name="copy_log_btn">Copia i registri</string>
+		<string name="install_zip_hdr">Installa Zip</string>
+		<string name="install_zip_btn">Installa ZIP</string>
+		<string name="install_image_hdr">Installa immagine</string>
+		<string name="install_image_btn">INSTALLAZIONE DELL'IMMAGINE</string>
+		<string name="install_select_file_hdr">Seleziona il file</string>
+		<string name="install_select_file_btn">SELEZIONA IL FILE</string>
 		<string name="adb_sideload_btn">ADB Sideload</string>
-		<string name="select_storage_hdr">Select Storage</string>
-		<string name="select_storage_btn">Select Storage</string>
-		<string name="queue_hdr">Queue</string>
-		<string name="raised_clearqueue_btn">Clear queue</string>
-		<string name="raised_viewqueue_btn">View queue</string>
-		<string name="zip_queue_count">%tw_zip_queue_count% of max of 10 Files queued</string>
-		<string name="folder">Folder</string>
+		<string name="select_storage_hdr">Seleziona Archiviazione</string>
+		<string name="select_storage_btn">Seleziona Archiviazione</string>
+		<string name="queue_hdr">Coda</string>
+		<string name="raised_clearqueue_btn">Cancella la coda</string>
+		<string name="raised_viewqueue_btn">Visualizza la coda</string>
+		<string name="zip_queue_count">%tw_zip_queue_count% di max di 10 file in coda</string>
+		<string name="cartella">Cartella</string>
 		<string name="file">File</string>
-		<string name="zip_sig_chk">Zip signature verification</string>
-		<string name="inject_twrp_chk">Inject TWRP after install</string>
-		<string name="install_reboot_chk">Reboot after installation is complete</string>
-		<string name="options_hdr">Options</string>
-		<string name="zip_queue">Queue:</string>
-		<string name="install_zip_count_hdr">Installing file %tw_zip_index% of %tw_zip_queue_count%</string>
-		<string name="working">Working...</string>
-		<string name="failed">Failed</string>
-		<string name="successful">Successful</string>
+		<string name="zip_sig_chk">Verifica della firma zip</string>
+		<string name="inject_twrp_chk">Iniettare TWRP dopo l'installazione</string>
+		<string name="install_reboot_chk">Riavvia dopo aver completato l'installazione</string>
+		<string name="options_hdr">Opzioni</string>
+		<string name="zip_queue">Coda:</string>
+		<string name="install_zip_count_hdr">Installazione del file %tw_zip_index% di %tw_zip_queue_count%</string>
+		<string name="lavoro">Lavoro...</string>
+		<string name="mancato">mancato</string>
+		<string name="riuscito">Riuscito</string>
 		<string name="wipe_cache_btn">WIPE CACHES</string>
-		<string name="reboot_system_btn">REBOOT SYSTEM</string>
-		<string name="reboot_recovery_btn">Reboot recovery</string>
-		<string name="install_sel_target">Select Target Partition</string>
-		<string name="flash_image_select">Partition</string>
-		<string name="flashing_image">Flashing Image...</string>
-		<string name="image_flashed">Image Flashed</string>
+		<string name="reboot_system_btn">RIAVVIO DEL SISTEMA</string>
+		<string name="reboot_recovery_btn">Riavviare il recupero</string>
+		<string name="install_sel_target">Seleziona la partizione di destinazione</string>
+		<string name="flash_image_select">Partizione</string>
+		<string name="flashing_image">Immagine lampeggiante ...</string>
+		<string name="image_flashed">Immagine lampeggiante</string>
 		<string name="wipe_cache_dalvik_confirm">Wipe Cache &amp; Dalvik?</string>
-		<string name="wiping_cache_dalvik">Wiping Cache &amp; Dalvik...</string>
-		<string name="wipe_cache_dalvik_complete">Cache &amp; Dalvik Wipe completed</string>
-		<string name="swipe_wipe">Swipe to Wipe</string>
-		<string name="no_os1">No OS Installed!</string>
-		<string name="no_osrb">Are you sure you wish to reboot?</string>
-		<string name="no_ospo">Are you sure you wish to power off?</string>
-		<string name="rebooting">Rebooting...</string>
-		<string name="install_reboot">Rebooting in %tw_sleep% second(s)</string>
-		<string name="swipe_reboot">Swipe to Reboot</string>
-		<string name="confirm_action">Confirm Action</string>
-		<string name="cancel_btn">CANCEL</string>
+		<string name="wiping_cache_dalvik">Wiping Cache &amp; Dalvik ...</string>
+		<string name="wipe_cache_dalvik_complete">Cache &amp; Dalvik Wipe completato</string>
+		<string name="swipe_wipe">Scorri per cancellare</string>
+		<string name="no_os1">Nessun sistema operativo installato!</string>
+		<string name="no_osrb">Sei sicuro di voler riavviare?</string>
+		<string name="no_ospo">Sei sicuro di voler spegnere?</string>
+		<string name="riavvio">Riavvio ...</string>
+		<string name="install_reboot">Riavvio in %tw_sleep% secondo / i</string>
+		<string name="swipe_reboot">Scorri per riavviare</string>
+		<string name="confirm_action">Conferma l'azione</string>
+		<string name="cancel_btn">ANNULLA</string>
 		<string name="cancel_reboot_btn">CANCEL REBOOT</string>
-		<string name="wipe_hdr">Wipe</string>
-		<string name="factory_reset_hdr">Factory Reset</string>
-		<string name="factory_reset1">Wipes Data, Cache, and Dalvik</string>
+		<string name="wipe_hdr">pulire</string>
+		<string name="factory_reset_hdr">Reset di fabbrica</string>
+		<string name="factory_reset1">Salvi i dati, cache e Dalvik</string>
 		<string name="factory_reset2">(not including internal storage)</string>
 		<string name="factory_reset3">Most of the time this is</string>
 		<string name="factory_reset4">the only wipe that you need.</string>
@@ -154,7 +154,7 @@
 		<string name="back_btn">BACK</string>
 		<string name="wipe_enc_btn">WIPE ENCRYPTION</string>
 		<string name="swipe_factory_reset">Swipe to Factory Reset</string>
-		<string name="backup_hdr">Backup</string>
+		<string name="backup_hdr">di riserva</string>
 		<string name="encryption_hdr">Enable Encryption</string>
 		<string name="encrypt_backup1">Enter a password to</string>
 		<string name="encrypt_backup2">enable backup encryption.</string>
@@ -170,7 +170,7 @@
 		<string name="partitions">Partitions</string>
 		<string name="progress">Progress</string>
 		<string name="backup_complete">Backup completed</string>
-		<string name="restore_hdr">Restore</string>
+		<string name="restore_hdr">Ristabilire</string>
 		<string name="restore_backup_hdr">Restore Backup</string>
 		<string name="sel_backup_hdr">Select Backup</string>
 		<string name="restore_dec_fail">Password failed, please try again!</string>
@@ -190,7 +190,7 @@
 		<string name="renaming_backup">Renaming Backup...</string>
 		<string name="rename_backup_complete">Backup rename completed</string>
 		<string name="swipe_to_rename">Swipe to Rename</string>
-		<string name="mount_hdr">Mount</string>
+		<string name="mount_hdr">Montare</string>
 		<string name="mount_sys_ro_chk">Mount system partition read-only</string>
 		<string name="decrypt_data_btn">DECRYPT DATA</string>
 		<string name="disable_mtp_btn">DISABLE MTP</string>
@@ -201,9 +201,9 @@
 		<string name="usb_stor_mnt2">Be sure to safely remove your device</string>
 		<string name="usb_stor_mnt3">from your computer before unmounting!</string>
 		<string name="unmount_btn">UNMOUNT</string>
-		<string name="rb_system_btn">System</string>
+		<string name="rb_system_btn">Sistema</string>
 		<string name="rb_poweroff_btn">Power Off</string>
-		<string name="rb_recovery_btn">Recovery</string>
+		<string name="rb_recovery_btn">Recupero</string>
 		<string name="rb_bootloader_btn">Bootloader</string>
 		<string name="rb_theme">Theme</string>
 		<string name="rb_download_btn">Download</string>
@@ -286,7 +286,7 @@
 		<string name="kb_vibration">Keyboard Vibration:</string>
 		<string name="act_vibration">Action Vibration:</string>
 		<string name="language_cptn">Language</string>
-		<string name="advanced_hdr">Advanced</string>
+		<string name="advanced_hdr">Avanzate</string>
 		<string name="copy_log_confirm">Copy Logs to SD card?</string>
 		<string name="copying_log">Copying Logs to SD card...</string>
 		<string name="copy_log_complete">Logs copied</string>
@@ -336,7 +336,7 @@
 		<string name="fm_actions">Actions</string>
 		<string name="fm_hdr">File Manager</string>
 		<string name="fm_sel_file">Select a File or Folder</string>
-		<string name="fm_type_folder">Folder</string>
+		<string name="fm_type_folder">Cartella</string>
 		<string name="fm_type_file">File</string>
 		<string name="fm_copy_btn">Copy</string>
 		<string name="fm_copying">Copying</string>
@@ -388,7 +388,7 @@
 		<string name="fix_contexts_complete">Fix Contexts completed</string>
 		<string name="reboot_hdr">Reboot</string>
 		<string name="install_cancel">Do Not Install</string>
-		<string name="sel_storage_list">Select Storage</string>
+		<string name="sel_storage_list">Seleziona Archiviazione</string>
 		<string name="ok_btn">OK</string>
 
 		<!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
@@ -679,11 +679,11 @@
 		<string name="done_script">script succeeded: result was [{1}]</string>
 		<string name="aborted_script">script aborted (no error message)</string>
 		<string name="aborted_script_err">script aborted: {1}</string>
-		<string name="options_cptn">Options</string>
+		<string name="options_cptn">Opzioni</string>
 		<string name="flash_img_confirm">Flash Image File</string>
 		<string name="also_wipes">Also wipes</string>
 		<string name="confirm_wipe_cptn">Confirm Wipe</string>
-		<string name="storage_cptn">Storage</string>
+		<string name="storage_cptn">Conservazione</string>
 		<string name="enter_password_cptn">Password</string>
 		<string name="theme_path_hdr">Theme Path</string>
 		<string name="theme_path_subhdr">Select the ui.zip</string>
@@ -825,7 +825,7 @@
 		<string name="full_new_pass_repeat_2">to verify its correctness.</string>
 		<string name="pass_hdr2_xdl">New password</string>
 		<string name="change_pass_confirm_xdl">Swipe to set a new password</string>
-		<string name="working">Working...</string>
+		<string name="lavoro">Lavoro...</string>
 		<string name="fox_flash_zip_magisk">Installing Magisk</string>
 		<string name="fox_flash_zip_supersu">Installing SuperSU</string>
 		<string name="run_custom_file">Run</string>
@@ -898,7 +898,7 @@
 		<string name="digest_check_skip" version="2">Digest check skip is on</string>
 		<string name="check_for_digest" version="2">Checking for Digest file...</string>
 
-		<string name="install_reboot" version="2">Rebooting in %tw_sleep% second(s)</string>
+		<string name="install_reboot" version="2">Riavvio in %tw_sleep% secondo / i</string>
 		<string name="sha2_chk">Use SHA2 for hashing</string>
 		<string name="fox_custom_fox_splash_btn">Custom Splash</string>
 		<string name="fox_custom_fox_splash_1">Custom splash screen was</string>
@@ -1109,7 +1109,7 @@
 		<string name="fox_comm_i1">To add a new item contact</string>
 		<string name="fox_comm_i2">@MrYacha in Telegram</string>
 
-		<string name="fox_comm_ins">Install</string>
+		<string name="fox_comm_ins">Installare</string>
 		<string name="fox_comm_del">Remove</string>
 
 		<string name="fox_comm_su_txt2">By Chainfire</string>
