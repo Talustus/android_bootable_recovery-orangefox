@@ -24,23 +24,6 @@
 		<page name="splash">
 			<background color="%background%"/>		
 
-			<text color="%text%">
-				<font resource="splashtext2"/>
-				<placement x="100" y="150"/>
-				<text>ORANGEFOX</text>
-			</text>
-			<text color="%text%">
-				<font resource="splashtext3"/>
-				<placement x="550" y="330"/>
-				<text>RECOVERY PROJECT</text>
-			</text>
-			
-			<text color="%text%">
-				<font resource="splashtext1"/>
-				<placement x="130" y="1590"/>
-				<text>%tw_version% | OrangeFox-%fox_actual_build%</text>
-			</text>	
-			
 			<object type="image">
 				<image resource="splash"/>
 				<placement x="0" y="0"/>

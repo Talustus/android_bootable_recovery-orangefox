@@ -3519,6 +3519,23 @@
 
 			<button style="btn_raised_hl">
 				<placement x="%btn_raised_right_x%" y="%row4_2_y%" placement="1"/>
+				<text>Wipe battery</text>
+				<actions>
+					<action function="set">tw_filecheck=%fox_home_files_dir%/WipeBattaryStats.zip</action>
+					<action function="set">tw_filename=%fox_home_files_dir%/WipeBattaryStats.zip</action>
+					<action function="set">tw_existpage=fox_flash</action>
+					<action function="set">tw_back=fox_menu</action>
+					<action function="set">tw_notexistpage=fox_prebuilt_fox_not_found</action>
+					<action function="page">filecheck</action>
+					<action function="set">fox_flash_txt1=Wipe battery stats</action>
+					<action function="set">fox_flash_txt2=By OrangeFox team</action>
+					<action function="set">fox_flash_sld=Swipe to remove battary stats</action>
+					<action function="set">fox_flash_info=0</action>
+				</actions>
+			</button>
+
+			<button style="btn_raised_hl">
+				<placement x="%btn_raised_left_x%" y="%row5_1_y%"/>
 				<text>{@fox_dellp_btn}</text>
 				<actions>
 					<action function="set">tw_filecheck=%fox_home_files_dir%/PassReset.zip</action>
