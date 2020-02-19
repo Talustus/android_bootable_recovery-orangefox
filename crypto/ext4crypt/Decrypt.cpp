@@ -1309,7 +1309,11 @@ bool Decrypt_User(const userid_t user_id, const std::string& Password) {
 								}
 							}
 						 );
-	if (!hwRet.isOk()) {
+	if (!hwRet.isOk() || ret != 0) {
+		printf("failed to verify\n");
+		if(ret > 0){
+			printf("response timeout: %d ms\n", ret);	//GateKeeper will not process requests before the timeout expires
+		}
 		return false;
 	}
 #else
