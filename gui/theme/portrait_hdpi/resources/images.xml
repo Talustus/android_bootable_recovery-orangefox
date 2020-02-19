@@ -36,7 +36,7 @@
 		<font name="font6" filename="Cooljazz.ttf" size="42"/>
 		<font name="font7" filename="Bender.ttf" size="42"/>
 		<font name="font8" filename="Amatic.ttf" size="42"/>
-		<font name="font9" filename="AngryBirds.ttf" size="42"/>
+		<font name="font9" filename="DroidSansFallback.ttf" size="42"/>
 		
 		<!-- Splash Preview -->
 		<image name="splash_user" filename="Splash/user" retainaspect="1"/>

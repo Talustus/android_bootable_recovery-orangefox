@@ -684,7 +684,7 @@
 			</action>
 		</page>
 
-		<!-- WorkShop by fordownloads -->
+		<!-- WorkShop by fordownloads (to do)-->
 		<page name="ext_custom_fonts_check">
 			<action>
 				<condition var1="tw_language" op="!=" var2="ar"/>
@@ -788,7 +788,7 @@
 				<placement x="0" y="%row5_2_y%" w="%listbox_tz_width_2%" h="%lb_l1%"/>
 				<font resource="font9" spacing="%fileselector_spacing%" color="%text%" />
 				<data name="theme_font_tmp"/>
-				<listitem name="Angry Birds">AngryBirds</listitem>
+				<listitem name="DroidSans Fallback">DroidSansFallback</listitem>
 			</listbox>
 			
 			<listbox>
@@ -851,7 +851,7 @@
 				<placement x="%col2_x%" y="%row5_2_y%" w="%listbox_tz_width_2%" h="%lb_l1%"/>
 				<font resource="font9" spacing="%fileselector_spacing%" color="%text%" />
 				<data name="theme_sec_font_tmp"/>
-				<listitem name="Angry Birds">AngryBirds</listitem>
+				<listitem name="DroidSans Fallback">DroidSansFallback</listitem>
 			</listbox>
 			
 			<!--button style="btn_raised">
