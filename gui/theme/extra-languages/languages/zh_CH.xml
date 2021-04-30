@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <language>
 	<display>Chinese Simplified</display>
 
@@ -77,7 +78,7 @@
 		<string name="copy_log_btn">将日志复制到 SD 卡</string>
 		<string name="install_zip_hdr">刷入 Zip 安装包</string>
 		<string name="install_zip_btn">刷入 Zip 安装包</string>
-		<string name="install_image_hdr">刷入 Image 镜像文件</string>
+		<string name="install_image_hdr">安装镜像</string>
 		<string name="install_image_btn">安装镜像</string>
 		<string name="install_select_file_hdr">选择文件</string>
 		<string name="install_select_file_btn">选择文件</string>
@@ -105,7 +106,7 @@
 		<string name="install_sel_target">选择目标分区</string>
 		<string name="flash_image_select">分区</string>
 		<string name="flashing_image">正在刷入镜像...</string>
-		<string name="image_flashed">Image 镜像刷入成功</string>
+		<string name="image_flashed">镜像刷入成功</string>
 		<string name="wipe_cache_dalvik_confirm">是否清除 Cache 和 Dalvik 分区数据 ？</string>
 		<string name="wipe_dalvik_confirm">是否清除 Dalvik 缓存？</string>
 		<string name="wiping_cache_dalvik">正在清除 Cache 和 Dalvik...</string>
@@ -218,7 +219,7 @@
 		<string name="usb_stor_mnt2">在安全地移除你的设备之前</string>
 		<string name="usb_stor_mnt3">请务必将其从计算机中弹出！</string>
 		<string name="unmount_btn">取消挂载</string>
-		<string name="rb_system_btn">System</string>
+		<string name="rb_system_btn">系统</string>
 		<string name="rb_poweroff_btn">关机</string>
 		<string name="rb_recovery_btn">Recovery</string>
 		<string name="rb_bootloader_btn">Bootloader</string>
@@ -639,7 +640,7 @@
 		<string name="dbg_overlay">覆盖</string>
 		<string name="fm_none">无</string>
 		
-		<string name="cust_navbar_noug">Nougat</string>
+		<string name="cust_navbar_noug">安卓7样式</string>
 		<string name="cust_navbar_cls">经典样式</string>
 		<string name="cust_navbar_accent">强调色</string>
 		<string name="cust_navbar_black">黑色</string>
@@ -721,7 +722,7 @@
 		
 		<string name="restoredialog_readonly">永不显示挂载系统只读对话框</string>
 		
-		<string name="offset_wrong">错误的移动！</string>
+		<string name="offset_wrong">错误的偏移值！</string>
 
 		<string name="new_key">使用新的键盘样式</string>
 		
@@ -801,7 +802,20 @@
 		<string name="disabled">未启用</string>
 		<string name="enabled">已启用</string>
 		<string name="zip_compatible_err">Zip Treble 兼容性错误!</string>
-		
+
+		<string name="unmount_sys_install">在安装ZIP之前卸载System分区</string>
+		<string name="unmount_system">正在卸载System分区...</string>
+		<string name="unmount_system_err">卸载System分区失败</string>		
+
+		<string name="unmount_vendor_install">在安装ZIP之前卸载Vendor分区</string>
+		<string name="unmount_vendor">正在卸载Vendor分区...</string>
+		<string name="unmount_vendor_err">卸载Vendor分区失败</string>	
+			
+		<string name="fbe_wipe_msg">警告： {1} 已清除。为了在清除后设置初始FBE策略，FBE设备应该启动到Android，而不是Recovery。</string>		
+		<string name="fastboot_button">Fastboot</string>
+		<string name="enable_adb">启用 ADB 调试</string>
+		<string name="enable_fastboot">启用 Fastboot</string>
+		<string name="fastboot_console_msg">已进入 Fastboot 模式...</string>
 		
 		<!-- Console Messages -->
 		<string name="fox_incremental_ota_compatibility_chk">正在验证增量包签名...</string>
@@ -860,6 +874,7 @@
 		<string name="module_initd">启用 init.d 支持</string>
 		<string name="module_cam">启用 Camera2API</string>
 		<string name="module_pass">移除密码</string>
+		<string name="module_remove_survival">删除所有Survival脚本</string>
 		<string name="fox_files_not_exist_1">文件不存在！</string>
 		<string name="fox_files_not_exist_2">请使用这个安装文件</string>
 		<string name="fox_files_not_exist_3">重新刷入 Recovery。</string>
@@ -955,10 +970,13 @@
 		<string name="mm_modules">模块</string>
 		<string name="mm_ver">Magisk 版本</string>
 		<string name="mm_mod_ver">模块版本</string>
+		<string name="mm_remove">下一次启动时移除模块</string>
+		<string name="mm_remove_hint">重新启动以使更改生效</string>
+		<string name="mm_remove_reboot">重新启动</string>
 		<string name="magisk_not_found">未发现Magisk!</string>
 		<string name="magisk_not_found_1">您想到Fox插件中心</string>
 		<string name="magisk_not_found_2">安装预装的Magisk吗？</string>
-		<string name="magisk_not_found_3"/>
+		<string name="magisk_not_found_3"></string>
 		
 		<!-- MIUI OTA -->
 		<string name="fox_ota_settings">OTA设置</string>
@@ -1010,7 +1028,7 @@
 		<string name="appmgr_apps">应用程序</string>
 		<string name="appmgr_title">应用管理</string>
 
-		<!-- Perfomance -->
+		<!-- performance -->
 		<string name="perf_title">性能</string>
 		<string name="perf_conf_mode">恢复性能模式</string>
 		<string name="perf_conf_balance">均衡</string>
@@ -1035,8 +1053,156 @@
 		<string name="of_ota_reboot_disabled">OTA更新已完成。您已禁用自动重启，请继续进行您的操作</string>
 
 		<!-- Wipe format moved -->
-		<string name="wipe_format_moved_info1">注意：格式化 Data 分区移动到</string>
+		<string name="wipe_format_moved_info1">注意：格式化 Data 分区移动到了</string>
 		<string name="wipe_format_moved_info2">分区管理界面</string>
+
+		<!-- R11 -->
+		<string name="gst_title">手势导航</string>
+		<string name="gst_enable_all">启用手势</string>
+		<string name="gst_back">返回手势</string>
+		<string name="gst_back_left">从左</string>
+		<string name="gst_back_right">从右</string>
+		<string name="gst_console_enable">状态栏下滑打开控制台</string>
+		<string name="gst_navbar_error">某些设置被隐藏。</string>
+		<string name="gst_navbar_error_2">禁用要显示的手势。</string>
+
+		<string name="in">in</string>
+		<string name="con_digest_start">[创建Digest已开始]</string>
+		<string name="con_digest_error">分区列表为空！</string>
+		<string name="con_digest_cancel">正在取消...</string>
+		<string name="con_digest_complete">[创建Digest已完成，用时 {1} 秒]</string>
+		<string name="digest_btn">创建Digest</string>
+		<string name="digest_creating">正在创建Digest...</string>
 		
+		<!-- 124/14354 files, 20/5412MB (5%)  -->
+		<string name="file_progress_v2">%llu/%llu 文件,</string>
+		<string name="size_progress_v2">%llu/%llu MB (%i%%)</string>
+
+		<string name="navpan_new_design">新的导航面板设计</string>
+		<string name="full_partition_list">显示要备份的其他分区</string>
+
+		<string name="data_decrypted_reload">解密成功！</string>
+
+		<string name="install_queue_magisk_btn">添加Magisk</string>
+		<string name="hint_ffiles_missing">你发现少了什么吗？</string>
+		<string name="hint_ffiles_missing1">Fox 插件不可用</string>
+		<string name="hint_ffiles_missing2">OrangeFox无法访问所需的文件。</string>
+		<string name="hint_ffiles_missing3">如果清除了/data，请尝试装载/data</string>
+		<string name="hint_ffiles_missing4">或者重新安装OrangeFox。</string>
+		<string name="hint_ffiles_missing5"><!-- Use this line if this hint is too big in your language --></string>
+		<string name="hide_btn">隐藏提示</string>
+
+		<string name="info_dir_empty">文件夹为空</string>
+		<string name="info_dir_empty_hidden">有些文件是隐藏的</string>
+
+		<string name="navbar_style_line">线条</string>
+		<string name="accent_in_titles">标题中的强调文字颜色</string>
+
+		<string name="backup_quick_info1">点击“快速备份”按钮后</string>
+		<string name="backup_quick_info2">将选中这些分区</string>
+		<string name="mbyte">MB</string>
+		<string name="mbytesec">MB/s</string>
+		<string name="backup_av_files">文件</string>
+		<string name="backup_av_img">镜像</string>
+		<string name="backup_exp_size">预期大小</string>
+		<string name="time_minute">分钟。</string>
+		<string name="backup_av">平均时间</string>
+		<string name="backup_av1">是否要将速度值</string>
+		<string name="backup_av2">重置为默认值？</string>
+		<string name="backup_av3">平均时间预测将不太准确。</string>
+
+		<string name="cust_line_white">使用白线</string>
+		<string name="cust_line_gray">使用灰线</string>
+
+		<!-- Updated slot selection -->
+		<string name="slot_show">切换槽位/string>
+		<string name="slot_switch_a">切换到槽位A</string>
+		<string name="slot_switch_b">切换到槽位B</string>
+		<string name="slot_active_a">槽位 A 已激活</string>
+		<string name="slot_active_b">槽位 B 已激活</string>
+
+		<string name="theme_font_primary_tab">主页</string>
+		<string name="theme_font_secondary_tab">辅助</string>
+		<string name="theme_font_size_tab">大小</string>
+		<string name="theme_font_select">选择字体</string>
+
+		<string name="theme_fweight">字体粗细</string>
+		<string name="theme_fweight_norm">Default</string>
+		<string name="theme_fweight_reg">Regular</string>
+		<string name="theme_fweight_med">Medium</string>
+
+		<string name="swipe_up_to_unlock">从屏幕底部向上滑动可解锁</string>
+
+		<string name="spl_background">背景色</string>
+		<string name="spl_logo">Logo</string>
+		<string name="spl_white">白色</string>
+		<string name="spl_black">黑色</string>
+		<string name="spl_night">夜晚</string>
+		<string name="spl_orange">橙色</string>
+		<string name="spl_accent">强调色</string>
+		<string name="spl_image">背景图像</string>
+		<string name="spl_del_img">删除图像</string>
+		<string name="hidden">已隐藏</string>
+		<string name="spl_ofr">"OrangeFox Recovery"标签</string>
+
+		<string name="batch_selected">%of_batch_count% 已选择</string>
+		<string name="batch_title">批量操作</string>
+		<string name="batch_files_folders">文件 &amp; 文件夹</string>
+
+		<string name="fm_action_folder">此文件夹上的操作/string>
+
+		<string name="tap_to_generate">点击此处计算</string>
+		<string name="calc_checksum">正在计...</string>
+		<string name="cant_access_data">无法访问数据。请手动加载数据分区。</string>
+
+		<string name="backup_pass_wait">正在更改密码...</string>
+		<string name="pass_encrypt_error1">当Data分区被加密时</string>
+		<string name="pass_encrypt_error2">不能更改密码！</string>
+
+		<string name="backup_encrypt_data_info">只有Data分区将被加密</string>
+		
+		<!-- Missing functions from TWRP -->
+		<string name="img_advanced">高级安装</string>
+		<string name="img_type">镜像类型</string>
+		<string name="img_select_type">选择镜像类型</string>
+		
+		<string name="recovery_ramdisk">Recovery Ramdisk</string>
+		<string name="kernel">内核</string>
+
+		<string name="repack_backup_first">先备份现有镜像</string>
+
+		<string name="unpack_error">解压镜像时出错。</string>
+		<string name="repack_error">重新打包镜像时出错。</string>
+		<string name="unpacking_image">正在解压 {1}...</string>
+		<string name="repacking_image">正在重新打包 {1}...</string>
+		
+		<string name="fix_recovery_loop">修复Recovery循环启动</string>
+		<string name="fix_recovery_loop_confirm">修复Recovery循环启动？</string>
+		<string name="fixing_recovery_loop">正在修复Recovery循环启动...</string>
+		<string name="fix_recovery_loop_complete">修复Recovery循环启动完成</string>
+		<string name="fixing_recovery_loop_patch">正在修补内核...</string>
+		<string name="fix_recovery_loop_patch_error">修补内核时出错。</string>
+		<string name="try_app">试试我们的app！</string>
+		<string name="try_app_2">使用我们的新app</string>
+		<string name="try_app_3">检查Recovery更新！</string>
+		<string name="try_app_4">下载链接：</string>
+		<string name="try_app_5">https://app.orangefox.tech</string>
+		<string name="fm_edit_file">在nano中编辑文件</string>
+		<string name="fm_open_terminal_btn">在这里打开终端</string>
+		<string name="batch_progress">进程</string>
+
+		<!-- R11.1 -->
+		<string name="custom_settings">%fox_compatibility_fox_device%自定义设置</string>
+		<string name="custom_settings_title">自定义设置</string>
+		<string name="tap_to_show">点击显示</string>
+
+		<!-- Android Rescue Party trigger -->
+		<string name="rescue_party0">触发安卓救援队！可能的解决方案？尝试：</string>
+		<string name="rescue_party1"> 1. 清除cache, 并且/或者</string>
+		<string name="rescue_party2"> 2. 格式化data, 并且/或者</string>
+		<string name="rescue_party3"> 3. 用清洁的方式刷入ROM。</string>
+		<string name="rescue_party4">报告的问题是：</string>
+
+		<string name="restore_system_context">无法获取 {1} 默认的context -- Android可能无法启动。</string>
 	</resources>
 </language>
