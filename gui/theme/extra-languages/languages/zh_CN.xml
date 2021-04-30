@@ -1152,7 +1152,7 @@
 		<string name="fm_action_folder">此文件夹上的操作/string>
 
 		<string name="tap_to_generate">点击此处计算</string>
-		<string name="calc_checksum">正在计...</string>
+		<string name="calc_checksum">正在计算...</string>
 		<string name="cant_access_data">无法访问数据。请手动加载数据分区。</string>
 
 		<string name="backup_pass_wait">正在更改密码...</string>
