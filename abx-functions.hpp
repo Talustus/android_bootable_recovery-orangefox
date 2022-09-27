@@ -74,7 +74,6 @@ private:
 		TYPE_STRING = 2 << 4,
 		TYPE_STRING_INTERNED = 3 << 4,
 		TYPE_BYTES_HEX = 4 << 4,
-		TYPE_BYTES_BASE64 = 5 << 4,
 		TYPE_INT = 6 << 4,
 		TYPE_INT_HEX = 7 << 4,
 		TYPE_LONG = 8 << 4,
@@ -219,25 +218,6 @@ private:
 					}
 					return hex;
 				}
-
-			case TYPE_BYTES_BASE64:
-				{
-					std::string s = read_string(m_is);
-					std::string b64;
-					auto outlen = ((s.length() + 2) / 3) * 4;
-					b64.resize(outlen+1);		// +1 for null terminator
-					auto got = EVP_EncodeBlock(
-						reinterpret_cast<unsigned char *>(&b64[0]),
-						reinterpret_cast<const unsigned char*>(s.c_str()), s.length());
-					if (got != outlen)
-					{
-						mError = true;
-						return "#error: base64 encoding failed";  // TODO
-					}
-					b64.resize(outlen);
-					return b64;
-				}
-
 			case TYPE_INT_HEX:
 				// TODO: output hex instead of dec (what is the exact format?)
 			case TYPE_INT:
