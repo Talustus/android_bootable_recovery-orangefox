@@ -467,7 +467,7 @@
 			</text>
 
 			<partitionlist style="partitionlist_radio">
-				<placement x="0" y="%row2_2a_y%" w="%screen_w%" h="%lb_l6%"/>
+				<placement x="0" y="%row2_2a_y%" w="%screen_w%" h="%options_list_num_2%"/>
 				<data name="tw_flash_partition"/>
 				<listtype name="flashimg"/>
 			</partitionlist>
